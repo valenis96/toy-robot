@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <div class="input">
+    <form id="input__form-place">
+    <select name="place__x">
+     <option value="0">0</option>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+    </select>    
+    <select name="place__y">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>   
+    <select name="place__facing">
+     <option value="North">North</option>
+     <option value="Sud">Sud</option>
+     <option value="West">West</option>
+     <option value="East">East</option>
+    </select>  
+    <input type="button" id="input__place" value="PLACE">
+    </form>
+      <input type="button" id="input__move" value="MOVE">
+      <input type="button" id="input__left" value="LEFT">
+      <input type="button" id="input__right" value="RIGHT">
+      <input type="button" id="input__report" value="REPORT">
+    </div>
+    <p id="report"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
